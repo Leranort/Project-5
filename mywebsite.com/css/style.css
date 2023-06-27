@@ -1,0 +1,74 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .name{
+    margin:0;
+    animation: 1s linear 0s 1 running mySlide;
+    color: white
+  }
+  
+  @keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+  }
+  
+  
+  body {
+    background-color: #3d0099;
+    background-image: url(https://wallpaperbat.com/img/213286-wayne-enterprises-jaipur-cable-satellite-service.jpg);
+    max-width: auto;
+    max-height: auto;
+  }
+  
+  nav{
+    padding: 0;
+    transform: scale(1.5);
+    margin:10px;
+  }
+  
+  nav a{
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav a:link{
+    color: red;
+  }
+  
+  nav a:hover{
+    background-color: orange;
+   }
+  
+  section{
+    border: solid 10px;
+    border-radius: 10px;
+    border-color: lightblue;
+    font-family: "Times New Roman", Times, serif;
+    margin-top:100px;
+    margin-bottom: 100px;
+    margin-right: 500px;
+    margin-left: 100px;
+  }
+  
+  section>h1{
+    color: black
+  }
+  
+  .icon{
+    border: 4px
+  }
+  form{
+    border: solid 2px;
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+  }
+
+  p{
+    color: white
+  }
+  
